@@ -10,6 +10,7 @@ SELECT
     CAR.CODCARGO AS "ID Cargo",
     CAR.DESCRCARGO AS "Cargo",
     FUN.NIVESC AS "ID Nível de Escolaridade",
+    ESC.OPCAO AS "Nível de Escolaridade",
     FUN.SEXO AS "ID Gênero",
     CASE WHEN FUN.SEXO = 'M' THEN 'Masculino' ELSE 'Feminino' END AS "Gênero",
     FUN.DTADM AS "Data de Admissão",
